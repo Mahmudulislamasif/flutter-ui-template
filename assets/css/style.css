@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Nunito&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
-    scroll-margin-top: 80px;
+    scroll-margin-top: 100px;
 }
 header
 {
     width: 100%;
-    background: #3bba9c;
+    background: linear-gradient(0deg,#0a1831 -3.67%,#0f1d9b 75.61%,#0f1d9b 95.17%);
     position: sticky;
     top: 0;
     
@@ -22,6 +22,22 @@ header
  justify-content: space-between;
  padding: 1.5rem;
 }
+.menu-bar .btn
+{
+	margin-right: 20px;
+}
+.menu-bar button
+{
+	background: linear-gradient(120deg,#9b33b5,#4f6af1);
+	color: white;
+	padding: 5px;
+	border:  none;
+	border-radius: 1rem;
+	padding: 12px 28px;
+	font-size: 1rem;
+	font-weight: 600;
+	margin-right: 10px;
+}
 .app {
 	display: flex;
 	min-height: 100vh;
@@ -30,10 +46,10 @@ header
 .toggle-menu {
 	display: none;
 	position: fixed;
-	top: 5rem;
-	right: 1rem;
-	width: 60px;
-	height: 60px;
+	top: 1rem;
+	right: 0rem;
+	width: 50px;
+	height: 50px;
 	border-radius: 99px;
 	background-color: #2e3047;
 	cursor: pointer;
