@@ -225,6 +225,10 @@ header .menu-bar h1
 	color: #3C3F58;
 	margin-bottom: 10px;
 }
+.content .list-style .code-snippet img
+{
+	float: right;
+}
 .content .list-style li ul li {
     margin-bottom: 0.5rem;
     margin-left: 1rem;
@@ -285,6 +289,30 @@ header .menu-bar h1
 	margin: 10px;
 }
 
+.ui-list-style
+{
+	margin-bottom: 0.5rem;
+	margin-left: 20px;
+}
+
+.ui-list-style p
+{
+	font-weight: 700;
+	color: #43484d;
+	font-size: 1.1rem;
+}
+.ui-list-style span
+{
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.ui-list-style img
+{
+	margin: 0 auto;
+}
 @media (max-width: 768px) {
 
 	.toggle-menu {
