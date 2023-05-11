@@ -196,6 +196,12 @@ header .menu-bar h1
 	padding: 1rem;
 	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
 }
+.content .list-style p:first-child
+{
+	font-weight: 700;
+	display: inline;
+	color: #43484d;
+}
 .content .list-style p span
 {
 	color: #f2564d;
@@ -208,7 +214,7 @@ header .menu-bar h1
 	padding: 5px;
 	border: 2px solid none;
 	margin-left: 10px;
-	margin-right: 10px;
+	margin-right: 1;
 	border-radius: 5px;
 }
 .content .list-style .code-snippet span
@@ -224,7 +230,10 @@ header .menu-bar h1
     margin-left: 1rem;
     margin-top: 0.5rem;
 }
-
+.content .list-style  a {
+    text-decoration: none;
+	color: #4f6af1;
+}
 .content p {
 	color: #707793;
     margin-top: 10px;
