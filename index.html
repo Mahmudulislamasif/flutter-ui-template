@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Responsive Navbar</title>
+	<title>Documentation</title>
 	<link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
@@ -12,7 +12,7 @@
         <nav>
            <div class="menu-bar">
             <div>
-                logo
+                <h1>NFTO</h1>
             </div>
             <div class="btn">
                 <button>Login</button>
@@ -21,12 +21,15 @@
            </div>
         </nav>
     </header>
+    <!-- This is main content which contains toggle button, sidebar and main -->
 	<div class="app">
+        <!-- Toggle button which is hidden initially for large device and visible for small device to show sidebar for toggling -->
 		<div class="toggle-menu">
 			<div class="hamburger-menu">
 				<span></span>
 			</div>
 		</div>
+        <!-- This is sidebar which contains multiple menu with hash tag -->
 		<aside class="sidebar-content">
 			<nav class="menu">
 				<a href="#introduction" class="menu-item is-active">Introduction</a>
@@ -38,6 +41,7 @@
                 <a href="#ui" class="menu-item">UI</a>
 			</nav>
 		</aside>
+        <!-- This is whole main content to show apps details description -->
 		<main class="content">
 			<section id="introduction">
                 <div class="main-content">
@@ -45,7 +49,7 @@
                         <h1>Introduction</h1>
                         <div class="hr-tag"></div>
                         <p>Lorem ipsum dolor sit <span>gggg</span> consectetur, adipisicing elit. Excepturi reprehenderit quaerat ab a libero sequi, perspiciatis fugit eaque molestias, blanditiis nisi illum quo voluptas porro earum expedita ipsam dolorum maiores. Odio cumque soluta aut doloribus, dolore reiciendis beatae earum sit molestiae debitis eligendi sed impedit? Eos excepturi qui enim nemo dignissimos veritatis perspiciatis nihil, nam tempore reprehenderit labore id, itaque eius laborum amet exercitationem. Culpa natus molestias nostrum reprehenderit laudantium quaerat qui et eaque sint ipsum aliquam quisquam sed autem incidunt iure quo, architecto debitis? Enim dignissimos nobis tenetur expedita saepe earum culpa optio. Aliquid et eius ut distinctio vero!</p>
-                        <div class="important-note">
+                        <!-- <div class="important-note">
                             <h4>Important</h4>
                             <ul>
                                 <li>
@@ -56,6 +60,20 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="general-note">
+                            <h4>Note</h4>
+                            <ul>
+                                <li>
+                                    These URLs must end with a slash  
+                                </li>
+                                <li>
+                                    These URLs must end with a <span>slash </span>  
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="warning-note">
+                            <h4>Warning</h4> 
+                        </div> -->
                     </div>
                     <div>
                         <h2>Requirements</h2>
@@ -83,6 +101,7 @@
                             </li>
                         </ol>
                     </div>
+                        <a href="https://support.smartersvision.com/help-center/articles/25/27/38/introduction">Link</a>
                 </div>
             </section>
             <section id="basic-info">
@@ -92,39 +111,55 @@
                         <div class="hr-tag"></div>
                         <ul class="list-style">
                             <li>
-                                Flutter Version
+                                Flutter Version : <span>3.3.8</span>
                             </li>
                             <li>
-                                Dart Version 
+                                Dart Version : <span>2.18.4</span>
                             </li>
                             <li>
                                 Install Flutter 
                                 <ul>
                                     <li>
-                                        Windows
+                                        Windows : <a href="https://flutter.dev/docs/get-started/install/windows"> https://flutter.dev/docs/get-started/install/windows</a>
                                     </li>
                                     <li>
-                                        macOS
+                                        macOS : <a href="https://flutter.dev/docs/get-started/install/macos">https://flutter.dev/docs/get-started/install/macos</a>
                                     </li>
                                     <li>
-                                        Linux
+                                        Linux : <a href="https://flutter.dev/docs/get-started/install/linux">https://flutter.dev/docs/get-started/install/linux</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                Set up an editor
+                                Set up an editor <a href="https://docs.flutter.dev/get-started/editor">https://docs.flutter.dev/get-started/editor</a>
                             </li>
                             <li>
-                                Build Our App 
+                                Build Our App : <a href="https://flutter.dev/docs/get-started/test-drive">https://flutter.dev/docs/get-started/test-drive</a>
                             </li>
                             <li>
-                                Change App Icon
+                                Change App Icon : <p>Go to the <span>"launcher"</span> folder under the "assets" folder, which can be found in the "nfto" folder. Then replace the png files with your own icon, background, and foreground.
+                                    Go to this folder</p>
+                                    <img src="./assets/image/change_app_icon.png" alt="">
+                                    <p>And Run below code to change the icon.</p>
+                                    <div class="code-snippet">
+                                        <span>flutter pub get</span>
+                                        <span>flutter pub run flutter_launcher_icons:main</span>
+                                    </div>
                             </li>
                             <li>
-                                Change Package Name
+                                Change App Name : <p>Go to the <strong> /nfto/pubspec.yaml </strong> file then change the app name.</p>
+                                    <img src="./assets/image/app-name.png" alt="">
+                                    <p>And Run below code to change the app name.</p>
+                                    <div class="code-snippet">
+                                        <span>flutter pub get</span>
+                                        <span>flutter pub run flutter_app_name</span>
+                                    </div>
                             </li>
                             <li>
-                                Build & Release Android App
+                                Change Package Name : <a href=" https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter"> https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter</a>
+                            </li>
+                            <li>
+                                Build & Release Android App : <a href="https://docs.flutter.dev/deployment/android">https://docs.flutter.dev/deployment/android</a>
                             </li>
                             <li>
                                 Add new language-
@@ -164,7 +199,11 @@
                     <div>
                         <h1>Directory</h1>
                         <div class="hr-tag"></div>
-                        <img src="./assets/image/directory.jpg" alt="">
+                        <img src="./assets/image/full-folder.png" alt="">
+                        <img src="./assets/image/lib-folder.png" alt="">
+                        <img src="./assets/image/src-folder.png" alt="">
+                        <img src="./assets/image/core-folder.png" alt="">
+                        <img src="./assets/image/core-folder-2.png" alt="">
                     </div>
                 </div>
             </section>
@@ -195,7 +234,9 @@
                     <div>
                         <h1>IOS Config</h1>
                         <div class="hr-tag"></div>
+                        <h2>Get Dependencies</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit sequi explicabo ratione officia ea deserunt quos, officiis tenetur est earum blanditiis. Eius, ab impedit sint aliquam nam quisquam facere qui.</p>
+                        <img src="./assets/image/directory.jpg" alt="">
                     </div>
                 </div>
             </section>
@@ -204,7 +245,9 @@
                     <div>
                         <h1>UI</h1>
                         <div class="hr-tag"></div>
+                        <h2>Get Dependencies</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit sequi explicabo ratione officia ea deserunt quos, officiis tenetur est earum blanditiis. Eius, ab impedit sint aliquam nam quisquam facere qui.</p>
+                        <img src="./assets/image/directory.jpg" alt="">
                     </div>
                 </div>
             </section>
