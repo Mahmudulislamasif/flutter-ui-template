@@ -23,3 +23,17 @@ sectionContainer.forEach(sec=>{
   }
 })
 }
+function copyText(icon) {
+  const codeSpans = icon.parentNode.querySelectorAll('span');
+  let text = '';
+  codeSpans.forEach(span => {
+    text += span.textContent + '\n';
+  });
+  navigator.clipboard.writeText(text).then(() => {
+    const toast = document.querySelector('.toast');
+    toast.classList.add('show');
+    setTimeout(() => {
+      toast.classList.remove('show');
+    }, 3000);
+  });
+}

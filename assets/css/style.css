@@ -268,7 +268,7 @@ header .menu-bar h1
 .main-content img {
 	max-width: 100%;
 	display: block;
-	margin: 10px;
+
 }
 
 .ui-list-style
@@ -305,6 +305,8 @@ header .menu-bar h1
 	margin-left: 30px;
 	font-weight: 700;
 }
+
+
 @media (max-width: 768px) {
 
 	.toggle-menu {

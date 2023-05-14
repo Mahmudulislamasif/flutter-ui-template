@@ -6,6 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Documentation</title>
 	<link rel="stylesheet" href="./assets/css/style.css" />
+    <style>
+        .copy-container {
+    position: relative;
+  }
+  .copy-container .toast {
+    position: absolute;
+    bottom: -50%;
+    right: -10%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 5px;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .copy-container .toast.show {
+    opacity: 1;
+  }
+      </style>
 </head>
 <body>
     <header>
@@ -93,9 +114,12 @@
                                     <img src="./assets/image/change_app_icon.png" alt="">
                                     <p>And Run below code to change the icon.</p>
                                     <div class="code-snippet">
-                                        <img src="./assets/image/icon/copy.png" alt="">
-                                        <span>flutter pub get</span>
-                                        <span>flutter pub run flutter_launcher_icons:main</span>
+                                        <div class="copy-container">
+                                            <img src="./assets/image/icon/copy.png" alt="" onclick="copyText(this)">
+                                            <div class="toast">Text copied to clipboard</div>
+                                          </div>
+                                          <span>flutter pub get</span>
+                                          <span>flutter pub run flutter_launcher_icons:main</span>
                                     </div>
                             </li>
                             <li>
@@ -106,16 +130,17 @@
                                         <img src="./assets/image/icon/copy.png" alt="">
                                         <span>flutter pub get</span>
                                         <span>flutter pub run flutter_app_name</span>
+                                        
                                     </div>
                             </li>
                             <li>
-                                Change Package Name : <a href=" https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter"> https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter</a>
+                                <!-- <p>Change Package Name :</p> <a href=" https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter"> https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter</a> -->
                             </li>
                             <li>
-                                Build & Release Android App : <a href="https://docs.flutter.dev/deployment/android">https://docs.flutter.dev/deployment/android</a>
+                                <p>Build & Release Android App :</p> <a href="https://docs.flutter.dev/deployment/android">https://docs.flutter.dev/deployment/android</a>
                             </li>
                             <li>
-                                Add new language : <img src="./assets/image/localization.png" alt="">
+                               <p> Add new language :</p> <img src="./assets/image/localization.png" alt="">
                             </li>
                         </ul>
                     </div>
