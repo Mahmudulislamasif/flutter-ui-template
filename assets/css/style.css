@@ -177,7 +177,7 @@ header .menu-bar h1
 {
 	background: rgb(243, 243, 235);
 	padding: 1rem;
-	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 .content .list-style p:first-child
 {
@@ -203,7 +203,6 @@ header .menu-bar h1
 .content .list-style .code-snippet span
 {
 	display: block;
-	text-align: center;
 	font-size: 1rem;
 	color: #3C3F58;
 	margin-bottom: 10px;
@@ -223,8 +222,8 @@ header .menu-bar h1
 }
 .content p {
 	color: #707793;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -295,6 +294,16 @@ header .menu-bar h1
 .ui-list-style img
 {
 	margin: 0 auto;
+}
+#directory span
+{
+  font-weight: 700;
+  color: #3C3F58;
+}
+#directory ul li 
+{
+	margin-left: 30px;
+	font-weight: 700;
 }
 @media (max-width: 768px) {
 

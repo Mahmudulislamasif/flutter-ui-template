@@ -23,28 +23,3 @@ sectionContainer.forEach(sec=>{
   }
 })
 }
-copyImg.addEventListener('click', () => {
-    // Create a new textarea element to hold the text content
-    const textarea = document.createElement('textarea');
-    textarea.style.position = 'fixed';
-    textarea.style.opacity = 0;
-  
-    // Add the text content of each span element to the textarea
-    let text = '';
-    spanElements.forEach(span => {
-      text += span.textContent + '\n';
-    });
-    textarea.value = text.trim();
-  
-    // Append the textarea to the document
-    document.body.appendChild(textarea);
-  
-    // Select the text content of the textarea
-    textarea.select();
-  
-    // Copy the selected text to the clipboard
-    document.execCommand('copy');
-  
-    // Remove the textarea from the document
-    document.body.removeChild(textarea);
-  });
