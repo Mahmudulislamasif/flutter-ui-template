@@ -189,7 +189,8 @@ header .menu-bar h1
 }
 .content .list-style p span
 {
-	color: #f2564d;
+	font-weight: 700;
+	color: #3C3F58;
 }
 .content .list-style p strong
 {
@@ -199,7 +200,7 @@ header .menu-bar h1
 	padding: 5px;
 	border: 2px solid none;
 	margin-left: 10px;
-	margin-right: 1;
+	margin-right: 10px;
 	border-radius: 5px;
 }
 .content .list-style .code-snippet span
