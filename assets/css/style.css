@@ -287,10 +287,16 @@ header .menu-bar h1
 }
 .ui-list-style span
 {
-	text-align: center;
 	display: block;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	
+}
+.ui-list-style span span
+{
+	font-weight: 700;
+	display: inline;
+	font-size: 14px;
 	
 }
 .ui-list-style img
@@ -311,8 +317,33 @@ header .menu-bar h1
 {
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
+	grid-gap: 1rem;
+}
+.nft-ui-search
+{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 1rem;
+}
+.nft-ui-collection
+{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 1rem;
 }
 
+.nft-ui-my-collection
+{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 1rem;
+}
+.nft-ui-sell-nft
+{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 1rem;
+}
 @media (max-width: 768px) {
 
 	.toggle-menu {
@@ -341,4 +372,23 @@ header .menu-bar h1
 	display: grid;
 	grid-template-columns: repeat(1,1fr);
 }
+.nft-ui-search
+{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-gap: 1rem;
+}
+.nft-ui-collection
+{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-gap: 1rem;
+}
+.nft-ui-my-collection
+{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-gap: 1rem;
+}
+
 }
