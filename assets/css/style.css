@@ -11,7 +11,7 @@
 
 header {
     width: 100%;
-    background: linear-gradient(#150f28, #2f3160);
+    background: linear-gradient(to right,#150f28, #2f3160);
     position: sticky;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
     top: 0;
@@ -345,8 +345,56 @@ header p
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 	grid-gap: 1rem;
-}
 
+}
+.contact-form
+{
+	background-color: #fff;
+	box-shadow: 0 0 20px hsla(0,0%,62%,.16);
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 2px black;
+	border-radius: 5px;
+}
+.contact-form input
+{
+	width: 100%;
+	border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+	border-radius: 3px;
+    padding: 10px;
+	margin-bottom: 10px;
+}
+.contact-form input:focus
+{
+	outline: none;
+}
+.contact-form textarea
+{
+	width: 100%;
+	border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+	border-radius: 3px;
+    padding: 10px;
+	margin-bottom: 10px;
+	height: 100px;
+}
+.contact-form textarea:focus
+{
+	outline: none;
+}
+.contact-form button
+{
+	display: block;
+	margin: 0 auto;
+	background: #57b06b;
+	padding: 10px 20px;
+	color: white;
+	border: 2px none;
+	border-radius: 5px;
+	font-size: 18px;
+}
 @media (max-width: 768px) {
 
 	.toggle-menu {
