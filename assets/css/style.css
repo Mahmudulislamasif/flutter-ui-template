@@ -121,7 +121,7 @@ header p
 
 .sidebar-content .menu .menu-item.is-active {
 	color: white;
-	background: linear-gradient(to right, #76ba5f,#5f89dd);
+	background: linear-gradient(to right,#150f28, #2f3160);
 	border: 2px none;
 	border-radius: 5px;
 }
@@ -426,4 +426,8 @@ header p
 	{
 		display: block;
 	}
+	.contact-form
+{
+	width: 100%;
+}
 }
