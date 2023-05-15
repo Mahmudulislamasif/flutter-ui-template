@@ -25,11 +25,10 @@ header {
  padding: 1.5rem;
 }
 
-header .menu-bar h1
+header p
 {
-  font-size: 2rem;
+	color: white;
 }
-
 .app {
 	display: flex;
 	min-height: 100vh;
@@ -120,15 +119,13 @@ header .menu-bar h1
 	transition: 0.2s linear;
 }
 
-.sidebar-content .menu .menu-item:hover,
 .sidebar-content .menu .menu-item.is-active {
-	color: #3bba9c;
-	border-right: 2px solid #3bba9c;
+	color: white;
+	background: linear-gradient(to right, #76ba5f,#5f89dd);
+	border: 2px none;
+	border-radius: 5px;
 }
 
-.sidebar-content .menu .menu-item:hover {
-	border-right: 2px solid #3bba9c;
-}
 
 .content {
 	flex: 1 1 0;
