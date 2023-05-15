@@ -124,6 +124,7 @@ header p
 	background: linear-gradient(to right,#150f28, #2f3160);
 	border: 2px none;
 	border-radius: 5px;
+	border-right: 5px solid #145d24;
 }
 
 
@@ -360,6 +361,7 @@ header p
 	padding: 10px;
 	border: 2px black;
 	border-radius: 5px;
+
 }
 .contact-form input
 {
