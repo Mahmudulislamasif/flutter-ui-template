@@ -4,6 +4,7 @@ const sectionContainer=document.querySelectorAll('section');
 const navLinksContainer=document.querySelectorAll('aside nav a');
 const copyImg = document.querySelector('img[src="./assets/image/icon/copy.png"]');
 const spanElements = document.querySelectorAll('.content .list-style .code-snippet span');
+
 toggleMenu.addEventListener('click', () => {
     toggleMenu.classList.toggle('is-active');
     sidebarContent.classList.toggle('is-active');
@@ -22,18 +23,4 @@ sectionContainer.forEach(sec=>{
       })
   }
 })
-}
-function copyText(icon) {
-  const codeSpans = icon.parentNode.querySelectorAll('span');
-  let text = '';
-  codeSpans.forEach(span => {
-    text += span.textContent + '\n';
-  });
-  navigator.clipboard.writeText(text).then(() => {
-    const toast = document.querySelector('.toast');
-    toast.classList.add('show');
-    setTimeout(() => {
-      toast.classList.remove('show');
-    }, 3000);
-  });
 }

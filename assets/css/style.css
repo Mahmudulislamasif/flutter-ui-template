@@ -15,6 +15,7 @@ header {
     position: sticky;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
     top: 0;
+	z-index: 0;
 }
 
 .menu-bar {
@@ -179,6 +180,7 @@ header .menu-bar h1
 	padding: 1rem;
 
 }
+
 .content .list-style p:first-child
 {
 	font-weight: 700;
@@ -305,7 +307,11 @@ header .menu-bar h1
 	margin-left: 30px;
 	font-weight: 700;
 }
-
+.nft-ui
+{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
 
 @media (max-width: 768px) {
 
@@ -330,4 +336,9 @@ header .menu-bar h1
 	.sidebar-content.is-active {
 		left: 0;
 	}
+	.nft-ui
+{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+}
 }

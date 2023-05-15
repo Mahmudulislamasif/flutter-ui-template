@@ -6,27 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Documentation</title>
 	<link rel="stylesheet" href="./assets/css/style.css" />
-    <style>
-        .copy-container {
-    position: relative;
-  }
-  .copy-container .toast {
-    position: absolute;
-    bottom: -50%;
-    right: -10%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    border-radius: 5px;
-    z-index: 999;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  .copy-container .toast.show {
-    opacity: 1;
-  }
-      </style>
 </head>
 <body>
     <header>
@@ -114,10 +93,7 @@
                                     <img src="./assets/image/change_app_icon.png" alt="">
                                     <p>And Run below code to change the icon.</p>
                                     <div class="code-snippet">
-                                        <div class="copy-container">
-                                            <img src="./assets/image/icon/copy.png" alt="" onclick="copyText(this)">
-                                            <div class="toast">Text copied to clipboard</div>
-                                          </div>
+                                        <img src="./assets/image/icon/copy.png" alt="">
                                           <span>flutter pub get</span>
                                           <span>flutter pub run flutter_launcher_icons:main</span>
                                     </div>
@@ -133,15 +109,15 @@
                                         
                                     </div>
                             </li>
-                            <!-- <li>
-                                <p>Change Package Name :</p> <a href=" https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter"> https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter</a>
+                            <li>
+                                <p>Change Package Name :</p> <a href=" https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter">Visit this link</a>
                             </li>
                             <li>
-                                <p>Build & Release Android App :</p> <a href="https://docs.flutter.dev/deployment/android">https://docs.flutter.dev/deployment/android</a>
+                                <p>Build & Release Android App :</p> <a href="https://docs.flutter.dev/deployment/android">Visit this link</a>
                             </li>
                             <li>
                                <p> Add new language :</p> <img src="./assets/image/localization.png" alt="">
-                            </li> -->
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -217,12 +193,18 @@
                         <ul class="ui-list-style">
                             <li>
                                <p>Onboarding</p> 
-                               <img src="./assets/image/NFT/Onboarding/onboarding-one.png" alt="">
-                               <span>Contain the first Onboarding screen’s code in this file. </span>
-                               <img src="./assets/image/NFT/Onboarding/onboarding-two.png" alt="">
-                               <span>Contain the second Onboarding screen’s code in this file. </span>
-                               <img src="./assets/image/NFT/Onboarding/onboarding-three.png" alt="">
-                               <span>Contain the third Onboarding screen’s code in this file. </span>
+                               <div class="nft-ui">
+                                <div>
+                                    <img src="./assets/image/NFT/Onboarding/onboarding-three.png" alt="">
+                                </div>
+                                   <div>
+                                    <img src="./assets/image/NFT/Onboarding/onboarding-two.png" alt="">
+                                   </div>
+                                   <div>
+                                    <img src="./assets/image/NFT/Onboarding/onboarding-one.png" alt="">
+                                   </div>
+                               </div>
+                               <span>These are the interface images for the three Onboarding screens. </span>
                             </li>
                             <li>
                                <p>Home </p>
