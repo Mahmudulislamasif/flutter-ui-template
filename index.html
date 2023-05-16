@@ -52,7 +52,6 @@
                         </p>
                        
                     </div>
-                    
                 </div>
             </section>
             <section id="basic-info">
@@ -191,25 +190,29 @@
                         <img src="./assets/image/run.png" alt="">
                         <p>2- If you don't use Android Studio or IntelliJ you can use the command line to run your application using the following command</p>
                         <div class="code-snippet">
-                            <img src="./assets/image/icon/copy.png" alt="">
+                            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(2)">
                             <span>flutter run</span>
+                            <div class="toast" id="toast2">Copied!</div>
                         </div>
                         <h2>Build and Install App</h2>
                         <p>1- After you make all your changes and customizations save all your project, Open the console, navigate to your project folder and execute the following command to build your app</p>
                         <div class="code-snippet">
-                            <img src="./assets/image/icon/copy.png" alt="">
+                            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(3)">
                             <span>flutter build apk --release</span>
+                            <div class="toast" id="toast3">Copied!</div>
                         </div>
                         <h2>Run iOS App</h2>
                         <div class="code-snippet">
-                            <img src="./assets/image/icon/copy.png" alt="">
+                            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(4)">
                             <span>flutter clean <br>
                                 flutter pub get</span>
+                                <div class="toast" id="toast4">Copied!</div>
                         </div>
                         <p>Open the root-folder/ios folder in terminal and run </p>
                         <div class="code-snippet">
-                            <img src="./assets/image/icon/copy.png" alt="">
+                            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(5)">
                             <span>pod install</span>
+                            <div class="toast" id="toast5">Copied!</div>
                         </div>
                         <p>After that, you should get the POD on your project. Chose a simulator and run your app
                         </p>
@@ -226,8 +229,9 @@
                         </h2>
                         <p>And just run the following command</p>
                         <div class="code-snippet">
-                            <img src="./assets/image/icon/copy.png" alt="">
+                            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(6)">
                             <span>flutter pub get</span>
+                            <div class="toast" id="toast6">Copied!</div>
                         </div>
                         <h2>Change Package Name</h2>
                         <p>1 - Open /android/app/build.gradle and change the package name. Change <span style="color: red;">MinSdkVersion 23</span> to <span  style="color: red;"> compileSdkVersion to 33.</span></p>
@@ -248,8 +252,9 @@
                         <h2>Get Dependencies</h2>
                         <p>And just run the following command</p>
                         <div class="code-snippet">
-                            <img src="./assets/image/icon/copy.png" alt="">
+                            <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(7)">
                             <span>flutter pub get</span>
+                            <div class="toast" id="toast7">Copied!</div>
                         </div>
                         <h2>Display Name and Bundle identifier</h2>
                         <p>If you want to change the display name and bundle identifier follow the next steps</p>
