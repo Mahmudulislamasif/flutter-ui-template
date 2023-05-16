@@ -22,7 +22,9 @@ header {
  display: flex;
  align-items: center;
  justify-content: space-between;
- padding: 1.5rem;
+ padding-left: 1.5rem;
+ padding-top: 0.8rem;
+ padding-bottom: 0.8rem;
 }
 
 header p
@@ -322,7 +324,7 @@ header p
 }
 .nft-ui img
 {
-	width: 300px;
+	width: 290px;
 }
 .nft-image
 {
@@ -331,7 +333,7 @@ header p
 }
 .nft-image img
 {
-	width: 300px;
+	width: 290px;
 }
 
 .nft-ui-collection
@@ -432,6 +434,7 @@ header p
 	{
 		display: block;
 	}
+	
 	.contact-form
 {
 	width: 100%;
