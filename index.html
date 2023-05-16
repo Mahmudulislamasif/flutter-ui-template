@@ -113,9 +113,6 @@
                                 <p>Change Package Name :</p> <a href=" https://stackoverflow.com/questions/51534616/how-to-change-package-name-in-flutter">Visit this link</a>
                             </li>
                             <li>
-                                <p>Build & Release Android App :</p> <a href="https://docs.flutter.dev/deployment/android">Visit this link</a>
-                            </li>
-                            <li>
                                <p> Add new language :</p> 
                                <p>New languages have to be added in the localization folder. The new language also has to be introduced to the app_localization.dart file. </p>
                                <img src="./assets/image/localization.png" alt="">
@@ -243,6 +240,21 @@
                         <h1>IOS Config</h1>
                         <div class="hr-tag"></div>
                         <h2>Get Dependencies</h2>
+                        <p>And just run the following command</p>
+                        <div class="code-snippet">
+                            <img src="./assets/image/icon/copy.png" alt="">
+                            <span>flutter pub get</span>
+                        </div>
+                        <h2>Display Name and Bundle identifier</h2>
+                        <p>If you want to change the display name and bundle identifier follow the next steps</p>
+                        <p>1 - Open the project with Xcode then go to your <root folder>/ios and open Runner.xcworkspace</p>
+                        <p>2 - Change Display name and Bundle identifier in Targets > Runner change your application display and bundle identifier (the same bundle on GoogleServices-Info.plist ). then change the deployment info from 9.0 to IOS 11.0.</p>
+                        <img src="./assets/image/iOS.png" alt="">
+                        <h2>Configure the Info.plist</h2>
+                        <p>1 - Open info.plist file with Xcode and change the Bundle name with your application name</p>
+                        <p>2 - Add the REVERSED_CLIENT_ID (you get it from GoogleService-Info) at the URL Schemes -> item 0</p>
+                        <p>3 - Add your domain in the App Transport Security Settings key.</p>
+                        <img src="./assets/image/iOS-two.png" alt="">
                     </div>
                 </div>
             </section>
