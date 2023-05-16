@@ -174,7 +174,7 @@ header p
     font-weight: 500;
     color: #6b6f80;
 }
-.content .list-style .code-snippet
+.code-snippet
 {
 	background: rgb(243, 243, 235);
 	padding: 1rem;
@@ -203,14 +203,14 @@ header p
 	margin-right: 10px;
 	border-radius: 5px;
 }
-.content .list-style .code-snippet span
+.code-snippet span
 {
 	display: block;
 	font-size: 1rem;
 	color: #3C3F58;
 	margin-bottom: 10px;
 }
-.content .list-style .code-snippet img
+.code-snippet img
 {
 	float: right;
 }
