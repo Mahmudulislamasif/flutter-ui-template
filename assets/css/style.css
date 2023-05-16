@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
-    scroll-margin-top: 130px;
+    scroll-margin-top: 110px;
 }
 
 header {
@@ -354,6 +354,24 @@ header p
 {
 	height: 100vh;
 }
+.contact-card
+{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+    background: white;
+	gap: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	
+}
+.contact-card .contact-card-one
+{
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	border-radius: 10px;
+	border: 2px none;
+}
+
 .contact-form
 {
 	background-color: #fff;
@@ -438,5 +456,11 @@ header p
 	.contact-form
 {
 	width: 100%;
+}
+.contact-card
+{
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	
 }
 }
