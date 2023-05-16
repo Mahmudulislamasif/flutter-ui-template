@@ -24,3 +24,22 @@ sectionContainer.forEach(sec=>{
   }
 })
 }
+function copyText(index) {
+  const codeSnippets = document.getElementsByClassName('code-snippet');
+  const currentSnippet = codeSnippets[index];
+  const spanTexts = currentSnippet.querySelectorAll('span');
+  let copiedText = '';
+
+  spanTexts.forEach(function(spanText) {
+    copiedText += spanText.textContent + '\n';
+  });
+
+  navigator.clipboard.writeText(copiedText).then(function() {
+    const toast = currentSnippet.querySelector('.toast');
+    toast.classList.add('show');
+
+    setTimeout(function() {
+      toast.classList.remove('show');
+    }, 2000);
+  });
+}
