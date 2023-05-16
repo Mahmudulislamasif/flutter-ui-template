@@ -463,6 +463,10 @@ header p
 	{
 		display: block;
 	}
+	.nft-ui img
+{
+	width: 280px;
+}
 	.nft-image
 	{
 		display: block;
