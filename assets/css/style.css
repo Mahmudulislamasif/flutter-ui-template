@@ -360,26 +360,29 @@ header p
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
     background: white;
-	gap: 2rem;
-	margin-top: 1rem;
-	margin-bottom: 1rem;	
+	gap: 2rem;	
+	margin: 0 auto;
 }
 .contact-card .contact-card-one
 {
-	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
-	padding: 1rem;
+	box-shadow: 0 2px 8px 0 rgba(43, 168, 116, 0.2);
+	padding: 1.5rem;
 	border-radius: 10px;
 	border: 2px none;
 }
-.contact-card .contact-card-one h3
+.contact-card .contact-card-one .contact-card-content
 {
-	margin-bottom: 10px;
-
+	text-align: center;
+}
+.contact-card-content img{
+	border-radius: 50%;
+	border: 2px solid rgba(43, 168, 116, 0.2) ;
+	padding: 5px;
 }
 .contact-card .contact-card-one p span
 {
 	
-	font-size: 18px;
+	font-size: 16px;
     font-weight: 700;
 	color: #2f3160;
 }
