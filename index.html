@@ -70,21 +70,21 @@
                                 <p>Install Flutter :</p> 
                                 <ul>
                                     <li>
-                                        Windows : <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank"> https://flutter.dev/docs/get-started/install/windows</a>
+                                        Windows : <a href="https://flutter.dev/docs/get-started/install/windows" target="_blank">Vist Link</a>
                                     </li>
                                     <li>
-                                        macOS : <a href="https://flutter.dev/docs/get-started/install/macos"  target="_blank">https://flutter.dev/docs/get-started/install/macos</a>
+                                        macOS : <a href="https://flutter.dev/docs/get-started/install/macos"  target="_blank">Visit Link</a>
                                     </li>
                                     <li>
-                                        Linux : <a href="https://flutter.dev/docs/get-started/install/linux"  target="_blank">https://flutter.dev/docs/get-started/install/linux</a>
+                                        Linux : <a href="https://flutter.dev/docs/get-started/install/linux"  target="_blank">Visit Link</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <p> Set up an editor : </p> <a href="https://docs.flutter.dev/get-started/editor"  target="_blank">https://docs.flutter.dev/get-started/editor</a>
+                                <p> Set up an editor : </p> <a href="https://docs.flutter.dev/get-started/editor"  target="_blank">Visit Link</a>
                             </li>
                             <li>
-                                <p>Build Our App :</p> <a href="https://flutter.dev/docs/get-started/test-drive"  target="_blank">https://flutter.dev/docs/get-started/test-drive</a>
+                                <p>Build Our App :</p> <a href="https://flutter.dev/docs/get-started/test-drive"  target="_blank">Visit Link</a>
                             </li>
                             <li>
                                 <p>Change App Icon :</p> <p>Go to the <span>"launcher"</span> folder under the <span>"assets"</span> folder, which can be found in the <span>"nfto"</span> folder. Then replace the png files with your own icon, background, and foreground.
@@ -97,6 +97,7 @@
                                         <span>flutter pub run flutter_app_name</span>
                                         <div class="toast" id="toast0">Copied!</div>
                                       </div>
+                            </li>
                             <li>
                                <p> Change App Name :</p> <p>Go to the <strong> /nfto/pubspec.yaml </strong> file then change the app name.</p>
                                     <img src="./assets/image/app-name.png" alt="" class="img-fluid">
@@ -104,7 +105,7 @@
                                     <div class="code-snippet">
                                         <img src="./assets/image/icon/copy.png" alt="" class="copy-icon" onclick="copyText(1)">
                                         <span>flutter pub get</span>
-                                        <span>flutter pub run flutter_launcher_icons:main</span>
+                                        <span>flutter pub run <span>flutter_launcher_icons:main</span> </span>
                                         <div class="toast" id="toast1">Copied!</div>
                                       </div>
                             </li>
@@ -115,7 +116,7 @@
                                <p> Add new language :</p> 
                                <p>New languages have to be added in the localization folder. The new language also has to be introduced to the app_localization.dart file. </p>
                                <img src="./assets/image/localization.png" alt="" class="img-fluid">
-                            </li>
+                            </li> 
                         </ul>
                     </div>
                 </div>
@@ -220,7 +221,7 @@
                     </div>
                 </div>
             </section>
-            <!-- <section id="android-config">
+            <section id="android-config">
                 <div class="main-content">
                     <div>
                         <h1>Android Config</h1>
@@ -236,15 +237,14 @@
                         <h2>Change Package Name</h2>
                         <p>1 - Open /android/app/build.gradle and change the package name. Change <span style="color: red;">MinSdkVersion 23</span> to <span  style="color: red;"> compileSdkVersion to 33.</span></p>
                         <img src="./assets/image/package.png" alt="" class="img-fluid">
-                        <p>2- Open /android/app/src/main/AndroidManifest.xml , /android/app/src/profil/AndroidManifest.xml, /android/app/src/debug/AndroidManifest.xml and specify your:</p>
-                        <h3>Your Package Name</h3>
-                       
+                        <!-- <p>2- Open /android/app/src/main/AndroidManifest.xml , /android/app/src/profil/AndroidManifest.xml, /android/app/src/debug/AndroidManifest.xml and specify your:</p>
+                        <h3>Your Package Name</h3> -->
                         <img src="./assets/image/manifest.png" alt="" class="img-fluid">
-                        <p>3 - Open /android/app/src/main/kotlin/<Your Package name folders>/MainActivity.kt and change the package name</p>
+                        <!-- <p>3 - Open /android/app/src/main/kotlin/<Your Package name folders>/MainActivity.kt and change the package name</p> -->
                     </div>
                 </div>
-            </section>  -->
-            <!-- <section id="ios-config">
+            </section> 
+            <section id="ios-config">
                 <div class="main-content">
                     <div>
                         <h1>iOS Config</h1>
@@ -260,15 +260,15 @@
                         <p>If you want to change the display name and bundle identifier follow the next steps</p>
                         <p>1 - Open the project with Xcode then go to your <root folder>/ios and open Runner.xcworkspace</p>
                         <p>2 - Change Display name and Bundle identifier in Targets > Runner change your application display and bundle identifier (the same bundle on GoogleServices-Info.plist ). then change the deployment info from 9.0 to IOS 11.0.</p>
-                        <img src="./assets/image/iOS.png" alt="">
+                        <img src="./assets/image/iOS.png" alt="" class="img-fluid">
                         <h2>Configure the Info.plist</h2>
                         <p>1 - Open info.plist file with Xcode and change the Bundle name with your application name</p>
                         <p>2 - Add the REVERSED_CLIENT_ID (you get it from GoogleService-Info) at the URL Schemes -> item 0</p>
                         <p>3 - Add your domain in the App Transport Security Settings key.</p>
-                        <img src="./assets/image/iOS-two.png" alt="">
+                        <img src="./assets/image/iOS-two.png" alt="" class="img-fluid">
                     </div>
                 </div>
-            </section> -->
+            </section>
             <!-- <section id="ui">
                 <div class="main-content">
                     <div>

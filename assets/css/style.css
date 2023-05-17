@@ -331,10 +331,16 @@ header p
 	width: 60%;
 	height: auto;
 }
-.nft-ui 
+#ios-config .img-fluid
 {
-	display: flex;
-	gap: 20px;
+	width: 60%;
+	height: auto;
+}
+.nft-ui {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%; /* Ensure the container spans the available width */
 }
 .nft-ui img
 {
@@ -453,6 +459,13 @@ header p
 .code-snippet {
 	position: relative;
   }
+  .code-snippet span {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+  }
+ 
+  
   
   .toast {
 	visibility: hidden;
@@ -514,5 +527,27 @@ header p
 	display: grid;
 	grid-template-columns: repeat(1,1fr);
 	
+}
+.content h1 {
+
+	font-size: 1.5rem;
+
+}
+.code-snippet span 
+{
+	font-size: 0.6rem;
+}
+.code-snippet span span
+{
+	display: block;
+}
+
+.content h2 {
+    font-size: 1rem;
+
+}
+.folder-path
+{
+	font-size: 10px;
 }
 }
