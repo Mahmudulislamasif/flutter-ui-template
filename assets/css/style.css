@@ -325,6 +325,11 @@ header p
 	width: 60%;
 	height: auto;
 }
+#android-config .img-fluid
+{
+	width: 60%;
+	height: auto;
+}
 .nft-ui 
 {
 	display: flex;
