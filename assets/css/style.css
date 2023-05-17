@@ -533,6 +533,7 @@ header p
 	.sidebar-content.is-active {
 		left: 0;
 	}
+	
 	.nft-ui
 	{
 		display: block;
@@ -587,5 +588,25 @@ header p
 .main-content p strong
 {
 	font-size: 3px;
+}
+#directory .img-fluid
+{
+    width: 100%;
+	height: auto;
+}
+#run .img-fluid
+{
+	width: 100%;
+	height: auto;
+}
+#android-config .img-fluid
+{
+	width: 100%;
+	height: auto;
+}
+#ios-config .img-fluid
+{
+	width: 100%;
+	height: auto;
 }
 }
