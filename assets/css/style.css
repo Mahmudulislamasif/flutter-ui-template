@@ -340,7 +340,7 @@ header p
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    width: 100%; /* Ensure the container spans the available width */
+    width: 80%; /* Ensure the container spans the available width */
 }
 .nft-ui img
 {
@@ -486,6 +486,23 @@ header p
 	visibility: visible;
 	opacity: 1;
   }
+
+  @media only screen and (min-width: 769px) and (max-width: 983px) {
+
+
+	.nft-ui img
+{
+	width: 190px;
+}
+
+	.nft-image img
+{
+	width: 190px;
+}
+
+
+
+}
 @media (max-width: 768px) {
 
 	.toggle-menu {
@@ -513,11 +530,18 @@ header p
 	{
 		display: block;
 	}
+	.nft-ui img
+{
+	width: 200px;
+}
 	.nft-image
 	{
 		display: block;
 	}
-	
+	.nft-image img
+{
+	width: 200px;
+}
 	.contact-form
 {
 	width: 100%;
