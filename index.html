@@ -216,6 +216,20 @@
                         <p>After that, you should get the POD on your project. Chose a simulator and run your app
                         </p>
                         <img src="./assets/image/pod.png" alt="" class="img-fluid">
+                        <h2>Installation</h2>
+                        <div class="hr-tag"></div>
+                        <p>First, add flutter_share as a dependency in your pubspec.yaml file.</p>
+                        <h3>iOS</h3>
+                        <p>Add if not exists one row to the ios/podfile after target runner:</p>
+                        <img src="./assets/image/code-two.png" alt="" class="img-fluid">
+                        <h3>Android</h3>
+                        <p>If you pretends to use the file share, you need to configure the file provider, this will give access to the files turning possible to share with other applications.</p>
+                        <p>Add to AndroidManifest.xml:</p>
+                        <img src="./assets/image/code-three.png" alt="" class="img-fluid">
+                        <p>Obs: You can change the android:name if you have an extension of file provider.</p>
+                        <p>Add res/xml/provider_paths.xml:</p>
+                        <img src="./assets/image/code-four.png" alt="" class="img-fluid">
+                        <p>If you want to learn more about flutter_share you can visit this link: <a href="https://pub.dev/packages/flutter_share">Visit Link</a></p>
                     </div>
                 </div>
             </section>
