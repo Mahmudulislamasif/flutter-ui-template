@@ -342,7 +342,7 @@ header p
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    width: 80%; /* Ensure the container spans the available width */
+    width: 80%; 
 }
 .nft-ui img
 {
@@ -533,7 +533,6 @@ header p
 	.sidebar-content.is-active {
 		left: 0;
 	}
-	
 	.nft-ui
 	{
 		display: block;
@@ -588,6 +587,11 @@ header p
 .main-content p strong
 {
 	font-size: 3px;
+}
+#basic-info .img-fluid
+{
+    width: 100%;
+	height: auto;
 }
 #directory .img-fluid
 {
