@@ -276,8 +276,10 @@ header p
 {
 	color: white;
 }
-
-
+.main-content p strong
+{
+	font-size: 14px;
+}
 
 .ui-list-style
 {
@@ -500,7 +502,12 @@ header p
 	width: 190px;
 }
 
-
+.contact-card
+{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	
+}
 
 }
 @media (max-width: 768px) {
@@ -573,5 +580,12 @@ header p
 .folder-path
 {
 	font-size: 10px;
+}
+.sidebar-hide.hidden {
+    display: none;
+}
+.main-content p strong
+{
+	font-size: 3px;
 }
 }
