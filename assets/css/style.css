@@ -8,7 +8,15 @@
     scroll-behavior: smooth;
     scroll-margin-top: 110px;
 }
-
+h3
+{
+	margin-bottom: 5px;
+}
+a
+{
+	text-decoration: none;
+	color: #4f6af1;
+}
 header {
     width: 100%;
     background: linear-gradient(to right,#150f28, #2f3160);
@@ -223,10 +231,7 @@ header p
     margin-left: 1rem;
     margin-top: 0.5rem;
 }
-.content .list-style  a {
-    text-decoration: none;
-	color: #4f6af1;
-}
+
 .content p {
 	color: #707793;
     margin-top: 20px;
