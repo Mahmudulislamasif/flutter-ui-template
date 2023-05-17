@@ -102,6 +102,7 @@ header p
     height: 100vh;
 	background-color: white;
 	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+	z-index: 100;
 }
 
 .sidebar-content h3 {
@@ -513,9 +514,5 @@ header p
 	display: grid;
 	grid-template-columns: repeat(1,1fr);
 	
-}
-.sidebar-content 
-{
-	top: 70;
 }
 }
