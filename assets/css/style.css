@@ -31,7 +31,13 @@ header {
 	z-index: 100;
 
 }
-
+.flutter-icon
+{
+	display: flex;
+	gap: 5px;
+	margin-top: 20px;
+	margin-right: 5px;
+}
 .menu-bar {
  padding-left: 1.5rem;
  padding-top: 0.8rem;
